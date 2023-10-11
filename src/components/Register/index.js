@@ -35,6 +35,9 @@ const Register = () => {
     const data = await response.data;
     console.log(data);
   };
+  dispatch(setUserName(""));
+  dispatch(setPassword(""));
+  dispatch(setEmail(""));
 
   return (
     <>
